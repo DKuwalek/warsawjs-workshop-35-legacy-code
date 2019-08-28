@@ -1,7 +1,7 @@
 module.exports = {
     "extends": "piecioshka",
     "env": {
-        // "browser": true,
+        "browser": true,
         "commonjs": true,
         "es6": true,
         "node": true,
@@ -12,9 +12,13 @@ module.exports = {
         "SharedArrayBuffer": "readonly"
     },
     "parserOptions": {
-        "ecmaVersion": 2018,
-        "sourceType": 'module'
+        "ecmaVersion": 2018
+        // "sourceType": 'module'
     },
     "rules": {
+        "no-undef":"off",
+        "no-implicit-globals":"off",
+        "require-jsdoc":"off",
+        "no-console":"off"
     }
 };
