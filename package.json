@@ -14,7 +14,8 @@
         "test": "jest",
         "coverage": "npm run test -- --coverage",
         "coveralls": "npm run coverage -- --coverageReporters=text-lcov | coveralls -v",
-        "plato": "plato -r -t 'WarsawJS Workshop #35' -d ./plato src"
+        "plato": "plato -r -t 'WarsawJS Workshop #35' -d ./plato src",
+        "start": "npx browser-sync start --server --no-ui npm -v"
     },
     "repository": {
         "type": "git",
